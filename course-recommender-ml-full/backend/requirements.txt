@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pydantic
+motor
+python-jose[cryptography]
+passlib[bcrypt]
+pandas
+numpy
+scikit-learn
+sentence-transformers; platform_system != 'Windows'

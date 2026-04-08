@@ -1,0 +1,76 @@
+from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
+from motor.motor_asyncio import AsyncIOMotorClient
+from pydantic import BaseModel
+import os
+from .recommender import semantic_search, text_search, recommend_for_user, generate_learning_path
+
+MONGO_URI = os.environ.get("MONGO_URI", "mongodb://localhost:27017/course_reco")
+client = AsyncIOMotorClient(MONGO_URI)
+db = client.get_default_database()
+
+app = FastAPI(title="Course Recommender ML Full")
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+class UserIn(BaseModel):
+    email: str
+    password: str
+    available_hours_per_day: float = 1
+
+@app.on_event("startup")
+async def startup_event():
+    await db.users.create_index("email", unique=True)
+    await db.courses.create_index("provider_course_id", unique=False)
+
+@app.post("/auth/register")
+async def register(u: UserIn):
+    existing = await db.users.find_one({"email": u.email})
+    if existing:
+        raise HTTPException(status_code=400, detail="User already exists")
+    user = {"email": u.email, "password": u.password, "skills": {}, "available_hours_per_day": u.available_hours_per_day}
+    await db.users.insert_one(user)
+    return {"msg": "registered"}
+
+@app.post("/auth/login")
+async def login(u: UserIn):
+    user = await db.users.find_one({"email": u.email})
+    if not user or user.get("password") != u.password:
+        raise HTTPException(status_code=401, detail="Invalid credentials")
+    return {"msg":"ok","user":{"email": user["email"],"available_hours_per_day": user.get("available_hours_per_day",1)}}
+
+@app.get("/search")
+async def search(q: str = "", limit: int = 10, semantic: bool = False):
+    if semantic:
+        results = await semantic_search(q, limit, db)
+    else:
+        results = await text_search(q, limit, db)
+    return {"results": results}
+
+
+
+
+
+
+
+@app.get("/recommendations")
+async def recommendations(email: str = None, limit: int = 10):
+    results = await recommend_for_user(email, limit, db)
+    return {"results": results}
+
+@app.post("/track/event")
+async def track_event(payload: dict):
+    await db.events.insert_one(payload)
+    return {"msg":"ok"}
+
+@app.get("/learning-path")
+async def learning_path(email: str = None, goal: str = None):
+    user = await db.users.find_one({"email": email}) if email else None
+    hours = user.get("available_hours_per_day",1) if user else 1
+    path = await generate_learning_path(goal, hours, db)
+    return {"learning_path": path}

@@ -1,0 +1,8 @@
+provider,id,title,description,price,duration_hours,level,tags,url
+udemy,ds-1,Python for Data Science,A complete course on Python and data science,19.99,12,Beginner,"python;data science",https://example.com/ud1
+coursera,cour1,Machine Learning by Andrew Ng,Classic ML course covering supervised learning,49.00,55,Beginner,"machine learning;ml",https://example.com/cour1
+khan,khan1,Intro to Statistics,Basics of statistics for data analysis,0.00,8,Beginner,"statistics;math",https://example.com/khan1
+udemy,ud2,Deep Learning A-Z,Hands-on deep learning,29.99,40,Intermediate,"deep learning;neural networks",https://example.com/ud2
+youtube,y1,Python Tutorial - Full Course,Beginner Python course on YouTube,0.00,10,Beginner,"python;programming",https://example.com/y1
+coursera,cour2,Data Science Specialization,Comprehensive data science track,0.00,120,Advanced,"data science;statistics;python",https://example.com/cour2
+udemy,ud3,React - The Complete Guide,Build modern web apps with React,24.99,30,Intermediate,"react;javascript;frontend",https://example.com/ud3

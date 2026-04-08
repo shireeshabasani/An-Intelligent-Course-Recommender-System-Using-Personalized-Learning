@@ -1,0 +1,556 @@
+[
+  {
+    "course_id": "ds-1", "quiz_number": 1, "course_title": "Python for Data Science - Level 1",
+    "questions": [
+      { "question": "Which function prints output?", "options": ["output()", "print()", "write()"], "answer": 1 },
+      { "question": "Result of 2**3?", "options": ["6", "8", "9"], "answer": 1 },
+      { "question": "How to define a function?", "options": ["func", "def", "function"], "answer": 1 },
+      { "question": "What is []?", "options": ["Dict", "List", "Tuple"], "answer": 1 },
+      { "question": "Data type for True/False?", "options": ["int", "bool", "str"], "answer": 1 },
+      { "question": "How to import a library?", "options": ["get", "import", "use"], "answer": 1 },
+      { "question": "What is len('Hi')?", "options": ["1", "2", "3"], "answer": 1 },
+      { "question": "Operator for division?", "options": ["/", "*", "+"], "answer": 0 },
+      { "question": "Comment symbol?", "options": ["//", "#", "/*"], "answer": 1 },
+      { "question": "Is Python case sensitive?", "options": ["Yes", "No", "Sometimes"], "answer": 0 }
+    ]
+  },
+  {
+    "course_id": "ds-1", "quiz_number": 2, "course_title": "Python for Data Science - Level 2",
+    "questions": [
+      { "question": "Difference between list and tuple?", "options": ["Speed", "Tuples are immutable", "Size"], "answer": 1 },
+      { "question": "Keyword for exceptions?", "options": ["catch", "try", "error"], "answer": 1 },
+      { "question": "Lambda creates?", "options": ["Anonymous functions", "Classes", "Loops"], "answer": 0 },
+      { "question": "Library for arrays?", "options": ["Pandas", "NumPy", "Math"], "answer": 1 },
+      { "question": "What is a dictionary?", "options": ["List", "Key-Value pairs", "Set"], "answer": 1 },
+      { "question": "Slicing syntax?", "options": ["list[start:stop]", "list(start,stop)", "list{start}"], "answer": 0 },
+      { "question": "How to join strings?", "options": ["+", "&", "concat"], "answer": 0 },
+      { "question": "What is type(5.0)?", "options": ["int", "double", "float"], "answer": 2 },
+      { "question": "Keyword to exit loop?", "options": ["stop", "break", "exit"], "answer": 1 },
+      { "question": "Module for math?", "options": ["math", "numbers", "calc"], "answer": 0 }
+    ]
+  },
+  {
+    "course_id": "ds-1", "quiz_number": 3, "course_title": "Python for Data Science - Level 3",
+    "questions": [
+      { "question": "What is a decorator?", "options": ["UI tool", "Function modifying another function", "Class type"], "answer": 1 },
+      { "question": "What does yield do?", "options": ["Ends function", "Creates generator", "Pauses"], "answer": 1 },
+      { "question": "Purpose of *args?", "options": ["Required params", "Variable arguments", "Keyword params"], "answer": 1 },
+      { "question": "Method for deep copy?", "options": ["copy()", "deepcopy()", "clone()"], "answer": 1 },
+      { "question": "Check key in dict?", "options": ["exists", "in", "has"], "answer": 1 },
+      { "question": "List comprehension use?", "options": ["Sorting", "Concise list creation", "Deletion"], "answer": 1 },
+      { "question": "What is __init__?", "options": ["Starter", "Constructor", "Deconstructor"], "answer": 1 },
+      { "question": "Module for regex?", "options": ["regex", "re", "string"], "answer": 1 },
+      { "question": "Global keyword use?", "options": ["Define everywhere", "Modify global var inside function", "Speed"], "answer": 1 },
+      { "question": "Difference between 'is' and '=='?", "options": ["None", "Identity vs Equality", "Speed"], "answer": 1 }
+    ]
+  },
+  {
+    "course_id": "ds-1", "quiz_number": 4, "course_title": "Python for Data Science - Level 4",
+    "questions": [
+      { "question": "What is pickling?", "options": ["Cleaning", "Object serialization", "Sorting"], "answer": 1 },
+      { "question": "Meaning of PEP 8?", "options": ["Security", "Style guide", "Version"], "answer": 1 },
+      { "question": "How is memory managed?", "options": ["Manual", "Garbage collection", "Static"], "answer": 1 },
+      { "question": "What are dunder methods?", "options": ["Private methods", "Double underscore methods", "Fast methods"], "answer": 1 },
+      { "question": "Difference between append and extend?", "options": ["Speed", "Object vs elements", "No difference"], "answer": 1 },
+      { "question": "Purpose of map()?", "options": ["Filter data", "Apply function to items", "Merge lists"], "answer": 1 },
+      { "question": "What is a closure?", "options": ["Loop end", "Inner function remembering scope", "Class end"], "answer": 1 },
+      { "question": "Which is a mutable type?", "options": ["String", "List", "Tuple"], "answer": 1 },
+      { "question": "What is monkey patching?", "options": ["Error", "Dynamic modification at runtime", "Hardcoding"], "answer": 1 },
+      { "question": "Namespace in Python?", "options": ["Database", "Mapping of names to objects", "Module name"], "answer": 1 }
+    ]
+  },
+  {
+    "course_id": "ds-1", "quiz_number": 5, "course_title": "Python for Data Science - Level 5",
+    "questions": [
+      { "question": "What is GIL?", "options": ["Global Interpreter Lock", "Graph Interface", "General Link"], "answer": 0 },
+      { "question": "How to handle circular imports?", "options": ["Delete one", "Local imports", "Static methods"], "answer": 1 },
+      { "question": "Purpose of __slots__?", "options": ["Security", "Memory optimization", "Speed"], "answer": 1 },
+      { "question": "What is a metaclass?", "options": ["Basic class", "Class that creates classes", "Library"], "answer": 1 },
+      { "question": "C-API in Python use?", "options": ["Websites", "Extending Python with C", "Styles"], "answer": 1 },
+      { "question": "Asynchronous programming keyword?", "options": ["sync", "async", "wait"], "answer": 1 },
+      { "question": "Abstract Base Class module?", "options": ["abc", "base", "abstract"], "answer": 0 },
+      { "question": "MRO stands for?", "options": ["Method Resolution Order", "Main Run Object", "Module Rule"], "answer": 0 },
+      { "question": "Profiling code tool?", "options": ["cProfile", "pyspeed", "timer"], "answer": 0 },
+      { "question": "What is a context manager?", "options": ["Loop", "With statement logic", "File"], "answer": 1 }
+    ]
+  },
+  {
+    "course_id": "cour1", "quiz_number": 1, "course_title": "Machine Learning - Level 1",
+    "questions": [
+      { "question": "Supervised Learning needs?", "options": ["No data", "Labeled data", "Random data"], "answer": 1 },
+      { "question": "Regression predicts?", "options": ["Categories", "Continuous numbers", "Images"], "answer": 1 },
+      { "question": "Example of classification?", "options": ["Price prediction", "Spam detection", "Forecasting"], "answer": 1 },
+      { "question": "What is a feature?", "options": ["Output", "Input variable", "Error"], "answer": 1 },
+      { "question": "ML library?", "options": ["Scikit-learn", "Flask", "React"], "answer": 0 },
+      { "question": "What is overfitting?", "options": ["Model too simple", "Model too complex", "Fast"], "answer": 1 },
+      { "question": "K in KNN is?", "options": ["Kernel", "Number of neighbors", "Constant"], "answer": 1 },
+      { "question": "Clustering is?", "options": ["Supervised", "Unsupervised", "Semi"], "answer": 1 },
+      { "question": "Training set use?", "options": ["Build model", "Test model", "Verify"], "answer": 0 },
+      { "question": "What is a label?", "options": ["Feature", "Target", "Bias"], "answer": 1 }
+    ]
+  },
+  {
+    "course_id": "cour1", "quiz_number": 2, "course_title": "Machine Learning - Level 2",
+    "questions": [
+      { "question": "Gradient Descent goal?", "options": ["Max error", "Min cost", "Split"], "answer": 1 },
+      { "question": "R-squared measures?", "options": ["Slope", "Goodness of fit", "Variance"], "answer": 1 },
+      { "question": "Ensemble method example?", "options": ["Linear Reg", "Random Forest", "Logistic"], "answer": 1 },
+      { "question": "Hyperparameter is?", "options": ["Weight", "Set before training", "Output"], "answer": 1 },
+      { "question": "Bias-Variance tradeoff?", "options": ["Speed", "Generalization", "Memory"], "answer": 1 },
+      { "question": "Kernel trick used in?", "options": ["Trees", "SVM", "K-Means"], "answer": 1 },
+      { "question": "Lasso regularization?", "options": ["Sparsity (L1)", "Smoothness", "Large"], "answer": 0 },
+      { "question": "Cross-validation use?", "options": ["Speed", "Reliable evaluation", "Security"], "answer": 1 },
+      { "question": "Standardizing features helps?", "options": ["Distance-based algorithms", "Trees", "Naive Bayes"], "answer": 0 },
+      { "question": "Logistic Regression used for?", "options": ["Numbers", "Classification", "Images"], "answer": 1 }
+    ]
+  },
+  {
+    "course_id": "cour1", "quiz_number": 3, "course_title": "Machine Learning - Level 3",
+    "questions": [
+      { "question": "What is PCA?", "options": ["Regression", "Dimensionality reduction", "Clustering"], "answer": 1 },
+      { "question": "F1-Score is?", "options": ["Accuracy", "Mean of precision and recall", "Error"], "answer": 1 },
+      { "question": "Random Forest is a?", "options": ["Single tree", "Bagging ensemble", "Boosting"], "answer": 1 },
+      { "question": "Confusion Matrix shows?", "options": ["Speed", "Classification performance", "Data size"], "answer": 1 },
+      { "question": "Boosting focuses on?", "options": ["Parallel training", "Sequential improvement", "Randomness"], "answer": 1 },
+      { "question": "Support Vectors are?", "options": ["Weights", "Points near boundary", "Labels"], "answer": 1 },
+      { "question": "Naive Bayes assumes?", "options": ["Dependence", "Feature independence", "Normal data"], "answer": 1 },
+      { "question": "What is a neuron?", "options": ["Processing unit", "Database", "Cable"], "answer": 0 },
+      { "question": "Activation function role?", "options": ["Store data", "Non-linearity", "Sorting"], "answer": 1 },
+      { "question": "Entropy in trees measures?", "options": ["Speed", "Impurity/Disorder", "Depth"], "answer": 1 }
+    ]
+  },
+  {
+    "course_id": "cour1", "quiz_number": 4, "course_title": "Machine Learning - Level 4",
+    "questions": [
+      { "question": "What is XGBoost?", "options": ["Database", "Gradient Boosting library", "Web tool"], "answer": 1 },
+      { "question": "Grid Search is for?", "options": ["Data cleaning", "Hyperparameter tuning", "Sorting"], "answer": 1 },
+      { "question": "Meaning of 'Stochastic'?", "options": ["Fast", "Random", "Certain"], "answer": 1 },
+      { "question": "Imbalanced data fix?", "options": ["Delete data", "SMOTE / Oversampling", "Ignore"], "answer": 1 },
+      { "question": "What is an epoch?", "options": ["One pass of data", "One row", "One second"], "answer": 0 },
+      { "question": "Backpropagation goal?", "options": ["Predict", "Update weights", "Save model"], "answer": 1 },
+      { "question": "What is a 'Cold Start'?", "options": ["System crash", "Recommender system problem", "Error"], "answer": 1 },
+      { "question": "Curse of Dimensionality?", "options": ["Too little data", "Problems in high-dimensional space", "Slow CPU"], "answer": 1 },
+      { "question": "Reinforcement Learning goal?", "options": ["Labels", "Maximize reward", "Group data"], "answer": 1 },
+      { "question": "What is a GAN?", "options": ["Network type", "Generative Adversarial Network", "Graph"], "answer": 1 }
+    ]
+  },
+  {
+    "course_id": "cour1", "quiz_number": 5, "course_title": "Machine Learning - Level 5",
+    "questions": [
+      { "question": "What is MLOps?", "options": ["ML Operations/Lifecycle", "A language", "Math"], "answer": 0 },
+      { "question": "Attention Mechanism use?", "options": ["Images", "NLP / Transformers", "Numbers"], "answer": 1 },
+      { "question": "What is A/B Testing?", "options": ["Logic test", "Comparing two model versions", "Cleaning"], "answer": 1 },
+      { "question": "Concept Drift means?", "options": ["System bug", "Statistical properties of target change", "Slow training"], "answer": 1 },
+      { "question": "Feature Importance method?", "options": ["SHAP / LIME", "Sorting", "Printing"], "answer": 0 },
+      { "question": "Edge AI means?", "options": ["Powerful servers", "On-device processing", "Cloud"], "answer": 1 },
+      { "question": "What is a Tensor?", "options": ["CPU part", "Multi-dimensional array", "Algorithm"], "answer": 1 },
+      { "question": "Hyperopt library use?", "options": ["Cleaning", "Bayesian optimization", "Web"], "answer": 1 },
+      { "question": "What is pruning?", "options": ["Adding nodes", "Removing redundant connections", "Sorting"], "answer": 1 },
+      { "question": "Federated Learning?", "options": ["Centralized", "Training across decentralized devices", "Offline"], "answer": 1 }
+    ]
+  },
+  {
+    "course_id": "khan1", "quiz_number": 1, "course_title": "Intro to Statistics - Level 1",
+    "questions": [
+      { "question": "What is the Mean?", "options": ["Middle", "Average", "Most frequent"], "answer": 1 },
+      { "question": "What is Median?", "options": ["Sum", "Middle value", "Range"], "answer": 1 },
+      { "question": "What is Mode?", "options": ["Most frequent", "Lowest", "Mean"], "answer": 0 },
+      { "question": "What is Range?", "options": ["Average", "Max minus Min", "Sum"], "answer": 1 },
+      { "question": "Standard Deviation measures?", "options": ["Center", "Spread", "Total"], "answer": 1 },
+      { "question": "Sample vs Population?", "options": ["No difference", "Sample is part of population", "Pop is small"], "answer": 1 },
+      { "question": "Probability of 1 means?", "options": ["Impossible", "Certain", "Unlikely"], "answer": 1 },
+      { "question": "What is an outlier?", "options": ["Average point", "Extreme value", "Common point"], "answer": 1 },
+      { "question": "Pie chart shows?", "options": ["Trends", "Parts of a whole", "Time"], "answer": 1 },
+      { "question": "Coin toss outcomes?", "options": ["1", "2", "3"], "answer": 1 }
+    ]
+  },
+  {
+    "course_id": "khan1", "quiz_number": 2, "course_title": "Intro to Statistics - Level 2",
+    "questions": [
+      { "question": "P-value measures?", "options": ["Truth", "Probability of result by chance", "Error"], "answer": 1 },
+      { "question": "Null Hypothesis assumes?", "options": ["Big change", "No effect/difference", "Success"], "answer": 1 },
+      { "question": "Type I error is?", "options": ["False negative", "False positive", "Calculation"], "answer": 1 },
+      { "question": "Normal distribution shape?", "options": ["Flat", "Bell-shaped", "Square"], "answer": 1 },
+      { "question": "Z-score represents?", "options": ["Mean", "Std Devs from mean", "Size"], "answer": 1 },
+      { "question": "Correlation of 0 means?", "options": ["Strong", "No linear relationship", "Weak"], "answer": 1 },
+      { "question": "Histogram use?", "options": ["Categories", "Distribution of continuous data", "Names"], "answer": 1 },
+      { "question": "Confidence Interval is?", "options": ["A range", "A point", "A percent"], "answer": 0 },
+      { "question": "Standard Error is?", "options": ["Mistake", "Std dev of sample means", "Variance"], "answer": 1 },
+      { "question": "Skewness refers to?", "options": ["Height", "Asymmetry", "Width"], "answer": 1 }
+    ]
+  },
+  {
+    "course_id": "khan1", "quiz_number": 3, "course_title": "Intro to Statistics - Level 3",
+    "questions": [
+      { "question": "ANOVA compares?", "options": ["Two means", "Three or more means", "Variances"], "answer": 1 },
+      { "question": "Chi-Square test use?", "options": ["Regression", "Categorical relationship", "Normal data"], "answer": 1 },
+      { "question": "Degrees of Freedom?", "options": ["Speed", "Independent pieces of info", "Total size"], "answer": 1 },
+      { "question": "What is a T-test?", "options": ["Comparing means", "Comparing colors", "Finding mode"], "answer": 0 },
+      { "question": "Linear Regression line?", "options": ["y = mx + b", "y = x^2", "x = y"], "answer": 0 },
+      { "question": "What is Covariance?", "options": ["Individual variance", "Joint variability", "Standardization"], "answer": 1 },
+      { "question": "Binomial distribution?", "options": ["Continuous", "Success/Failure outcomes", "Random"], "answer": 1 },
+      { "question": "What is a Lurking variable?", "options": ["Main feature", "Hidden variable affecting results", "Constant"], "answer": 1 },
+      { "question": "Central Limit Theorem?", "options": ["Means stay small", "Sampling distribution becomes normal", "Static"], "answer": 1 },
+      { "question": "Power of a test?", "options": ["Speed", "Probability of rejecting false null", "Error rate"], "answer": 1 }
+    ]
+  },
+  {
+    "course_id": "khan1", "quiz_number": 4, "course_title": "Intro to Statistics - Level 4",
+    "questions": [
+      { "question": "Bayesian Stats uses?", "options": ["Fixed data", "Prior beliefs/knowledge", "Randomness"], "answer": 1 },
+      { "question": "What is a Boxplot?", "options": ["Photo", "Visualizing quartiles", "List"], "answer": 1 },
+      { "question": "Coefficient of Determination?", "options": ["R-squared", "Z-score", "Mean"], "answer": 0 },
+      { "question": "Homoscedasticity means?", "options": ["Different variance", "Equal variance of errors", "Zero error"], "answer": 1 },
+      { "question": "What is Kurtosis?", "options": ["Asymmetry", "Tailedness/Peakedness", "Width"], "answer": 1 },
+      { "question": "What is a Permutation?", "options": ["Group", "Ordered arrangement", "Unordered group"], "answer": 1 },
+      { "question": "Poisson distribution use?", "options": ["Heights", "Events over time/space", "Weights"], "answer": 1 },
+      { "question": "Standardizing data?", "options": ["Cleaning", "Converting to Z-scores", "Scaling to 100"], "answer": 1 },
+      { "question": "Sampling Bias?", "options": ["Accuracy", "Non-representative sample", "Randomness"], "answer": 1 },
+      { "question": "What is Multi-collinearity?", "options": ["Independence", "High correlation between predictors", "Speed"], "answer": 1 }
+    ]
+  },
+  {
+    "course_id": "khan1", "quiz_number": 5, "course_title": "Intro to Statistics - Level 5",
+    "questions": [
+      { "question": "Multivariate Analysis?", "options": ["One variable", "Multiple dependent variables", "Numbers"], "answer": 1 },
+      { "question": "Logistic Regression predicts?", "options": ["Continuous", "Probabilities for classification", "Images"], "answer": 1 },
+      { "question": "Time Series analysis?", "options": ["Sorting", "Data points over time", "Random data"], "answer": 1 },
+      { "question": "Survival Analysis use?", "options": ["Gaming", "Time until an event occurs", "Speed"], "answer": 1 },
+      { "question": "What is Bootstrapping?", "options": ["System restart", "Resampling with replacement", "Hardware"], "answer": 1 },
+      { "question": "Monte Carlo method?", "options": ["Casino game", "Random sampling for results", "Sorting"], "answer": 1 },
+      { "question": "Factor Analysis goal?", "options": ["Adding variables", "Finding latent variables", "Clustering"], "answer": 1 },
+      { "question": "A/B Testing significance?", "options": ["P-value check", "Visual check", "Speed"], "answer": 0 },
+      { "question": "Residual Analysis use?", "options": ["Cleaning", "Checking model assumptions", "Deployment"], "answer": 1 },
+      { "question": "Machine Learning vs Stats?", "options": ["No difference", "ML focuses on prediction; Stats on inference", "Stats is newer"], "answer": 1 }
+    ]
+  },
+  {
+    "course_id": "ud2", "quiz_number": 1, "course_title": "Deep Learning - Level 1",
+    "questions": [
+      { "question": "Neural Network inspired by?", "options": ["Computers", "Human brain", "Nature"], "answer": 1 },
+      { "question": "Layer at the start?", "options": ["Output", "Input", "Hidden"], "answer": 1 },
+      { "question": "Deep learning uses?", "options": ["One layer", "Many hidden layers", "No layers"], "answer": 1 },
+      { "question": "What is a weight?", "options": ["Value adjusting signal", "File size", "Error"], "answer": 0 },
+      { "question": "Common activation?", "options": ["ReLU", "Math", "Loop"], "answer": 0 },
+      { "question": "TensorFlow belongs to?", "options": ["Meta", "Google", "Amazon"], "answer": 1 },
+      { "question": "What is an epoch?", "options": ["One pass of whole dataset", "One sample", "One hour"], "answer": 0 },
+      { "question": "Loss function purpose?", "options": ["Speed", "Measure error", "Clean data"], "answer": 1 },
+      { "question": "Backpropagation?", "options": ["Forward", "Update weights", "Delete"], "answer": 1 },
+      { "question": "Optimizer example?", "options": ["Adam", "Python", "HTML"], "answer": 0 }
+    ]
+  },
+  {
+    "course_id": "ud2", "quiz_number": 2, "course_title": "Deep Learning - Level 2",
+    "questions": [
+      { "question": "CNN stands for?", "options": ["Code Net", "Convolutional Neural Network", "Computer Net"], "answer": 1 },
+      { "question": "Pooling layer role?", "options": ["Add pixels", "Downsample/Reduce size", "Increase depth"], "answer": 1 },
+      { "question": "Dropout technique?", "options": ["Quit training", "Prevent overfitting by disabling neurons", "Error"], "answer": 1 },
+      { "question": "RNNs are for?", "options": ["Static images", "Sequential/Time-series data", "Tables"], "answer": 1 },
+      { "question": "Vanishing gradient fix?", "options": ["LSTM / ReLU", "Sigmoid", "Deleting layers"], "answer": 0 },
+      { "question": "Batch Normalization?", "options": ["Sort data", "Normalize layer inputs", "Clean images"], "answer": 1 },
+      { "question": "Data augmentation?", "options": ["New data", "Transforming existing data", "Deleting"], "answer": 1 },
+      { "question": "Transfer learning?", "options": ["Cloud", "Using pre-trained models", "Manual"], "answer": 1 },
+      { "question": "Softmax in output?", "options": ["Regression", "Probability for multi-class", "Speed"], "answer": 1 },
+      { "question": "Weights initialization?", "options": ["Zeros", "Random (He/Xavier)", "Ones"], "answer": 1 }
+    ]
+  },
+  {
+    "course_id": "ud2", "quiz_number": 3, "course_title": "Deep Learning - Level 3",
+    "questions": [
+      { "question": "What is a GAN?", "options": ["Graph", "Generative Adversarial Network", "Gaming Net"], "answer": 1 },
+      { "question": "Autoencoder use?", "options": ["Driving", "Unsupervised compression", "Classification"], "answer": 1 },
+      { "question": "What is 'Attention'?", "options": ["Focus on specific parts of input", "Hardware", "Speed"], "answer": 0 },
+      { "question": "Transformer architecture?", "options": ["Recurrent", "Attention-based", "Convolutional"], "answer": 1 },
+      { "question": "What is Keras?", "options": ["Language", "High-level API for DL", "Database"], "answer": 1 },
+      { "question": "Exploding Gradient?", "options": ["Small values", "Gradients becoming too large", "Zero"], "answer": 1 },
+      { "question": "Learning Rate importance?", "options": ["Memory", "Step size in weight updates", "Sorting"], "answer": 1 },
+      { "question": "What is PyTorch?", "options": ["Library", "Language", "Compiler"], "answer": 0 },
+      { "question": "Early Stopping?", "options": ["Pause", "Stop training when performance plateaus", "Delete"], "answer": 1 },
+      { "question": "Momentum in optimization?", "options": ["Weight", "Speeds up SGD and dampens oscillations", "Error"], "answer": 1 }
+    ]
+  },
+  {
+    "course_id": "ud2", "quiz_number": 4, "course_title": "Deep Learning - Level 4",
+    "questions": [
+      { "question": "Hyperparameter tuning tool?", "options": ["Keras Tuner", "Sorting", "Excel"], "answer": 0 },
+      { "question": "Fine-tuning meaning?", "options": ["New model", "Slightly adjusting pre-trained weights", "UI"], "answer": 1 },
+      { "question": "Siamese Network?", "options": ["Dual branches for similarity", "Speed", "Deep layers"], "answer": 0 },
+      { "question": "YOLO algorithm used for?", "options": ["Text", "Object Detection", "Audio"], "answer": 1 },
+      { "question": "BERT model type?", "options": ["CNN", "Transformer for NLP", "RNN"], "answer": 1 },
+      { "question": "Self-supervised learning?", "options": ["No labels needed", "Manual", "Random"], "answer": 0 },
+      { "question": "Depthwise Separable Convolution?", "options": ["Slower", "Efficient CNN layers", "Dense"], "answer": 1 },
+      { "question": "Leaky ReLU?", "options": ["Error", "Activation allowing small negative values", "Static"], "answer": 1 },
+      { "question": "Gradient Clipping?", "options": ["Increase", "Limit gradient size to prevent explosion", "Zero"], "answer": 1 },
+      { "question": "Cross-Entropy loss?", "options": ["Regression", "Classification", "Clustering"], "answer": 1 }
+    ]
+  },
+  {
+    "course_id": "ud2", "quiz_number": 5, "course_title": "Deep Learning - Level 5",
+    "questions": [
+      { "question": "Diffusion Models use?", "options": ["Classification", "Image Generation", "Sorting"], "answer": 1 },
+      { "question": "Multi-modal learning?", "options": ["One type", "Processing multiple data types (text/image)", "Speed"], "answer": 1 },
+      { "question": "Model Quantization?", "options": ["Bigger model", "Reducing precision for speed/size", "Accuracy"], "answer": 1 },
+      { "question": "Neural Architecture Search?", "options": ["Google search", "Automating model design", "Sorting"], "answer": 1 },
+      { "question": "Few-shot learning?", "options": ["Many examples", "Learning from very few examples", "Zero"], "answer": 1 },
+      { "question": "Capsule Networks?", "options": ["Old", "Better spatial hierarchy than CNNs", "Fast"], "answer": 1 },
+      { "question": "Reinforcement Learning from Human Feedback?", "options": ["RLHF", "Standard", "Manual"], "answer": 0 },
+      { "question": "Hardware for DL?", "options": ["CPU", "GPU / TPU", "RAM"], "answer": 1 },
+      { "question": "Object tracking logic?", "options": ["Sorting", "Consistency across frames", "Labels"], "answer": 1 },
+      { "question": "Future of DL?", "options": ["Static", "AGI / Efficiency / Reasoning", "Ending"], "answer": 1 }
+    ]
+  },
+  {
+    "course_id": "y1", "quiz_number": 1, "course_title": "Python Tutorial - Level 1",
+    "questions": [
+      { "question": "Output of print(5+5)?", "options": ["55", "10", "Error"], "answer": 1 },
+      { "question": "Input from user?", "options": ["get()", "input()", "read()"], "answer": 1 },
+      { "question": "Result of 10/2?", "options": ["5", "5.0", "2"], "answer": 1 },
+      { "question": "String symbol?", "options": ["Quotes", "Brackets", "Parentheses"], "answer": 0 },
+      { "question": "Is Python high-level?", "options": ["Yes", "No", "Machine"], "answer": 0 },
+      { "question": "Indentation role?", "options": ["Design", "Define code blocks", "Optional"], "answer": 1 },
+      { "question": "Variable name rule?", "options": ["Start with digit", "Cannot start with digit", "No rules"], "answer": 1 },
+      { "question": "Python extension?", "options": [".py", ".pyt", ".txt"], "answer": 0 },
+      { "question": "Multi-line comment?", "options": ["#", "Triple quotes", "//"], "answer": 1 },
+      { "question": "Who created Python?", "options": ["Guido van Rossum", "Elon Musk", "Gates"], "answer": 0 }
+    ]
+  },
+  {
+    "course_id": "y1", "quiz_number": 2, "course_title": "Python Tutorial - Level 2",
+    "questions": [
+      { "question": "elif is short for?", "options": ["else if", "every if", "extra if"], "answer": 0 },
+      { "question": "For loop vs While?", "options": ["For is better", "For iterates; While is conditional", "None"], "answer": 1 },
+      { "question": "range(5) outputs?", "options": ["1-5", "0-4", "0-5"], "answer": 1 },
+      { "question": "List method to add?", "options": ["push", "append", "add"], "answer": 1 },
+      { "question": "Dictionary key rule?", "options": ["Any type", "Must be immutable", "Strings only"], "answer": 1 },
+      { "question": "Check length?", "options": ["size()", "len()", "count()"], "answer": 1 },
+      { "question": "Boolean values?", "options": ["True/False", "Yes/No", "1/0"], "answer": 0 },
+      { "question": "Convert string to int?", "options": ["str()", "int()", "float()"], "answer": 1 },
+      { "question": "Module for random?", "options": ["rand", "random", "math"], "answer": 1 },
+      { "question": "Function definition?", "options": ["def name():", "func name():", "define name:"], "answer": 0 }
+    ]
+  },
+  {
+    "course_id": "y1", "quiz_number": 3, "course_title": "Python Tutorial - Level 3",
+    "questions": [
+      { "question": "Local vs Global scope?", "options": ["No difference", "Inside vs outside functions", "Speed"], "answer": 1 },
+      { "question": "What is a module?", "options": ["A file", "A variable", "A loop"], "answer": 0 },
+      { "question": "File opening mode 'w'?", "options": ["Read", "Write", "Append"], "answer": 1 },
+      { "question": "Exception block?", "options": ["try/except", "error/fix", "catch/try"], "answer": 0 },
+      { "question": "What is a set?", "options": ["Ordered", "Unordered unique elements", "List"], "answer": 1 },
+      { "question": "Class keyword?", "options": ["class", "object", "type"], "answer": 0 },
+      { "question": "Inheritance meaning?", "options": ["Copying", "Child class taking from parent", "Error"], "answer": 1 },
+      { "question": "OS module use?", "options": ["Math", "System/File interactions", "Web"], "answer": 1 },
+      { "question": "Map function result?", "options": ["List", "Map object", "Dict"], "answer": 1 },
+      { "question": "JSON in Python?", "options": ["json module", "text", "xml"], "answer": 0 }
+    ]
+  },
+  {
+    "course_id": "y1", "quiz_number": 4, "course_title": "Python Tutorial - Level 4",
+    "questions": [
+      { "question": "What are Iterators?", "options": ["Loops", "Objects that can be iterated upon", "Lists"], "answer": 1 },
+      { "question": "Decorators syntax?", "options": ["@", "#", "$"], "answer": 0 },
+      { "question": "Meaning of 'self'?", "options": ["Global", "Instance of the class", "Static"], "answer": 1 },
+      { "question": "Virtual Environment tool?", "options": ["venv", "pip", "anaconda"], "answer": 0 },
+      { "question": "Pip used for?", "options": ["Running code", "Package management", "Sorting"], "answer": 1 },
+      { "question": "What is __name__ == '__main__'?", "options": ["Error", "Checks if script is run directly", "Loop"], "answer": 1 },
+      { "question": "Filter function role?", "options": ["Sort", "Extract items matching condition", "Merge"], "answer": 1 },
+      { "question": "What is a Tuple?", "options": ["Mutable", "Immutable sequence", "Dict"], "answer": 1 },
+      { "question": "Datetime module use?", "options": ["Math", "Dates and times", "Strings"], "answer": 1 },
+      { "question": "List remove vs pop?", "options": ["Same", "Value based vs Index based", "Speed"], "answer": 1 }
+    ]
+  },
+  {
+    "course_id": "y1", "quiz_number": 5, "course_title": "Python Tutorial - Level 5",
+    "questions": [
+      { "question": "What is Flask?", "options": ["Database", "Web framework", "ML tool"], "answer": 1 },
+      { "question": "Pandas primary use?", "options": ["Web", "Data analysis", "Games"], "answer": 1 },
+      { "question": "Request module for?", "options": ["Math", "HTTP requests", "Files"], "answer": 1 },
+      { "question": "Unit testing library?", "options": ["unittest", "tester", "pycheck"], "answer": 0 },
+      { "question": "What is a Generator?", "options": ["List", "Function returning iterator", "Database"], "answer": 1 },
+      { "question": "Logging module use?", "options": ["UI", "Tracking events/errors", "Math"], "answer": 1 },
+      { "question": "GUI library in Python?", "options": ["Tkinter", "Requests", "NLTK"], "answer": 0 },
+      { "question": "Asyncio purpose?", "options": ["Speed", "Concurrent code", "Sorting"], "answer": 1 },
+      { "question": "What is SQLAlchemy?", "options": ["Math", "ORM for databases", "Web"], "answer": 1 },
+      { "question": "NLTK is for?", "options": ["Numbers", "Natural Language Processing", "Images"], "answer": 1 }
+    ]
+  },
+  {
+    "course_id": "cour2", "quiz_number": 1, "course_title": "Data Science Spec. - Level 1",
+    "questions": [
+      { "question": "What is Data Science?", "options": ["Gaming", "Extracting insights from data", "Hardware"], "answer": 1 },
+      { "question": "Data cleaning step?", "options": ["Modeling", "Wrangling", "Scaling"], "answer": 1 },
+      { "question": "Visualization library?", "options": ["Matplotlib", "Requests", "Flask"], "answer": 0 },
+      { "question": "What is SQL?", "options": ["Language", "Database query language", "OS"], "answer": 1 },
+      { "question": "Dataset format?", "options": ["CSV", "DOC", "MP3"], "answer": 0 },
+      { "question": "What is Big Data?", "options": ["Huge file", "Large/Complex datasets", "Slow"], "answer": 1 },
+      { "question": "EDA stands for?", "options": ["Easy Data", "Exploratory Data Analysis", "End"], "answer": 1 },
+      { "question": "Correlation Matrix use?", "options": ["Sorting", "Checking relationships", "Cleaning"], "answer": 1 },
+      { "question": "Jupyter Notebook use?", "options": ["Writing notes", "Interactive coding", "Email"], "answer": 1 },
+      { "question": "Python list vs array?", "options": ["No diff", "Arrays are for math; Lists for mix", "Lists faster"], "answer": 1 }
+    ]
+  },
+  {
+    "course_id": "cour2", "quiz_number": 2, "course_title": "Data Science Spec. - Level 2",
+    "questions": [
+      { "question": "Pandas DataFrame is?", "options": ["1D", "2D structure", "3D"], "answer": 1 },
+      { "question": "Seaborn built on?", "options": ["Flask", "Matplotlib", "Torch"], "answer": 1 },
+      { "question": "Missing value fix?", "options": ["Delete", "Imputation", "Ignore"], "answer": 1 },
+      { "question": "Feature engineering is?", "options": ["Math", "Creating new features", "Scaling"], "answer": 1 },
+      { "question": "SQL SELECT use?", "options": ["Delete", "Retrieve data", "Update"], "answer": 1 },
+      { "question": "NoSQL example?", "options": ["MySQL", "MongoDB", "Postgres"], "answer": 1 },
+      { "question": "Standardizing data?", "options": ["Removing", "Scaling features", "Labels"], "answer": 1 },
+      { "question": "Outlier detection?", "options": ["Boxplots", "Histograms", "Pie charts"], "answer": 0 },
+      { "question": "Normalization goal?", "options": ["Add data", "Reduce redundancy", "Speed"], "answer": 1 },
+      { "question": "Pandas .head()?", "options": ["End", "First 5 rows", "Middle"], "answer": 1 }
+    ]
+  },
+  {
+    "course_id": "cour2", "quiz_number": 3, "course_title": "Data Science Spec. - Level 3",
+    "questions": [
+      { "question": "Linear Regression metric?", "options": ["Accuracy", "Mean Squared Error", "F1"], "answer": 1 },
+      { "question": "Decision Tree logic?", "options": ["Loop", "Split data on features", "Random"], "answer": 1 },
+      { "question": "Scikit-learn purpose?", "options": ["Web", "Machine Learning library", "Database"], "answer": 1 },
+      { "question": "What is a P-value?", "options": ["Mean", "Statistical significance", "Size"], "answer": 1 },
+      { "question": "K-Means is for?", "options": ["Regression", "Clustering", "Images"], "answer": 1 },
+      { "question": "Random Forest benefit?", "options": ["Faster", "Reduced overfitting", "Simple"], "answer": 1 },
+      { "question": "Overfitting sign?", "options": ["High train accuracy; Low test", "Low train; High test", "Equal"], "answer": 0 },
+      { "question": "Bias-Variance Tradeoff?", "options": ["Complexity vs Accuracy", "Memory vs Speed", "Error source"], "answer": 2 },
+      { "question": "What is SMOTE?", "options": ["Cleaning", "Synthetic minority oversampling", "Sorting"], "answer": 1 },
+      { "question": "PCA use case?", "options": ["Clustering", "Reducing dimensions", "Regression"], "answer": 1 }
+    ]
+  },
+  {
+    "course_id": "cour2", "quiz_number": 4, "course_title": "Data Science Spec. - Level 4",
+    "questions": [
+      { "question": "NLP is for?", "options": ["Images", "Natural Language Processing", "Numbers"], "answer": 1 },
+      { "question": "What is a Transformer?", "options": ["HW", "Deep learning architecture", "Loop"], "answer": 1 },
+      { "question": "Deploying models tool?", "options": ["Flask/Streamlit", "Excel", "Math"], "answer": 0 },
+      { "question": "Time Series forecasting?", "options": ["Clustering", "Predicting future over time", "Random"], "answer": 1 },
+      { "question": "Ensemble learning logic?", "options": ["One model", "Combining multiple models", "Manual"], "answer": 1 },
+      { "question": "Hyperparameter tuning?", "options": ["Cleaning", "Finding best model settings", "Sorting"], "answer": 1 },
+      { "question": "What is Cloud Computing?", "options": ["Rain", "Remote servers/storage", "PC"], "answer": 1 },
+      { "question": "Data Governance?", "options": ["Politics", "Data management/security rules", "Math"], "answer": 1 },
+      { "question": "Tableau use?", "options": ["Coding", "Data visualization", "Database"], "answer": 1 },
+      { "question": "Apache Spark for?", "options": ["Small data", "Big Data processing", "Web"], "answer": 1 }
+    ]
+  },
+  {
+    "course_id": "cour2", "quiz_number": 5, "course_title": "Data Science Spec. - Level 5",
+    "questions": [
+      { "question": "Ethical AI meaning?", "options": ["Speed", "Fairness/Bias prevention", "Rules"], "answer": 1 },
+      { "question": "Reinforcement Learning?", "options": ["Labels", "Learning via rewards/penalties", "Groups"], "answer": 1 },
+      { "question": "A/B Testing significance?", "options": ["P-value check", "Visual", "Speed"], "answer": 0 },
+      { "question": "Deep Learning vs DS?", "options": ["Same", "DL is subset of DS using NNs", "DS is DL"], "answer": 1 },
+      { "question": "Data Storytelling goal?", "options": ["Clean", "Communicate insights effectively", "Write code"], "answer": 1 },
+      { "question": "GPU vs CPU in DS?", "options": ["GPU faster for parallel tasks (DL)", "CPU faster", "No diff"], "answer": 0 },
+      { "question": "Automated ML (AutoML)?", "options": ["Manual", "Automating model selection", "Robot"], "answer": 1 },
+      { "question": "What is MLOps?", "options": ["Maintenance", "ML lifecycle management", "OS"], "answer": 1 },
+      { "question": "Anomaly Detection use?", "options": ["Forecasting", "Fraud detection", "Grouping"], "answer": 1 },
+      { "question": "Future of Data Science?", "options": ["Static", "Integration with business/AI/Auto", "Ending"], "answer": 1 }
+    ]
+  },
+  {
+    "course_id": "ud3", "quiz_number": 1, "course_title": "React Guide - Level 1",
+    "questions": [
+      { "question": "What is React?", "options": ["Database", "JS Library", "Language"], "answer": 1 },
+      { "question": "What is JSX?", "options": ["Style", "JS XML", "Java"], "answer": 1 },
+      { "question": "Component role?", "options": ["Folder", "Reusable UI unit", "Script"], "answer": 1 },
+      { "question": "Render component?", "options": ["<Comp />", "{Comp}", "(Comp)"], "answer": 0 },
+      { "question": "Props meaning?", "options": ["State", "External input", "CSS"], "answer": 1 },
+      { "question": "useState hook?", "options": ["Side effects", "Manage state", "Refs"], "answer": 1 },
+      { "question": "Virtual DOM use?", "options": ["HTML", "Lightweight DOM copy", "Plugin"], "answer": 1 },
+      { "question": "npm start?", "options": ["Run", "Build", "Stop"], "answer": 0 },
+      { "question": "src folder?", "options": ["Images", "Source code", "CSS"], "answer": 1 },
+      { "question": "Root div file?", "options": ["index.html", "index.css", "App.js"], "answer": 0 }
+    ]
+  },
+  {
+    "course_id": "ud3", "quiz_number": 2, "course_title": "React Guide - Level 2",
+    "questions": [
+      { "question": "useEffect use?", "options": ["State", "Side effects", "Styling"], "answer": 1 },
+      { "question": "Lifting state up?", "options": ["Delete", "Move to parent", "Redux"], "answer": 1 },
+      { "question": "Hook for refs?", "options": ["useRef", "useState", "useMemo"], "answer": 0 },
+      { "question": "Context API goal?", "options": ["Styling", "Global state", "Routes"], "answer": 1 },
+      { "question": "Controlled component?", "options": ["Manual", "Managed by state", "Lock"], "answer": 1 },
+      { "question": "Dependency array?", "options": ["Speed", "Rerender control", "Storage"], "answer": 1 },
+      { "question": "Class setState?", "options": ["Update", "Render", "Delete"], "answer": 0 },
+      { "question": "React Router use?", "options": ["Fetching", "Navigation", "Database"], "answer": 1 },
+      { "question": "Key prop in lists?", "options": ["Styles", "Unique ID", "Security"], "answer": 1 },
+      { "question": "Conditional rendering?", "options": ["Loop", "JS logic in JSX", "Style"], "answer": 1 }
+    ]
+  },
+  {
+    "course_id": "ud3", "quiz_number": 3, "course_title": "React Guide - Level 3",
+    "questions": [
+      { "question": "What is Redux?", "options": ["Database", "State management", "Web tool"], "answer": 1 },
+      { "question": "Redux Reducer?", "options": ["Delete", "Function to update state", "Input"], "answer": 1 },
+      { "question": "Higher Order Component?", "options": ["Large", "Function returning component", "CSS"], "answer": 1 },
+      { "question": "React.memo role?", "options": ["Save", "Prevent re-renders", "Style"], "answer": 1 },
+      { "question": "What is a custom hook?", "options": ["Library", "Reusable stateful logic", "Built-in"], "answer": 1 },
+      { "question": "Prop Drilling?", "options": ["Error", "Passing props too deep", "CSS"], "answer": 1 },
+      { "question": "Error Boundary?", "options": ["CSS", "Catch JS errors in children", "Web"], "answer": 1 },
+      { "question": "Fragments use?", "options": ["Style", "Group items without node", "Loop"], "answer": 1 },
+      { "question": "PureComponent vs Component?", "options": ["Speed", "Shallow comparison", "None"], "answer": 1 },
+      { "question": "Portals in React?", "options": ["External", "Rendering child outside DOM", "Link"], "answer": 1 }
+    ]
+  },
+  {
+    "course_id": "ud3", "quiz_number": 4, "course_title": "React Guide - Level 4",
+    "questions": [
+      { "question": "React Suspense?", "options": ["Error", "Waiting for data/code", "Delete"], "answer": 1 },
+      { "question": "What is useReducer?", "options": ["Delete", "Complex state hook", "Simple"], "answer": 1 },
+      { "question": "useCallback vs useMemo?", "options": ["Same", "Function vs Value memoization", "Speed"], "answer": 1 },
+      { "question": "What is SSR?", "options": ["Server Side Rendering", "Static Site", "Speed"], "answer": 0 },
+      { "question": "Next.js is a?", "options": ["Database", "React Framework", "Language"], "answer": 1 },
+      { "question": "What is Reconciliation?", "options": ["Merge", "Syncing Virtual and Real DOM", "Error"], "answer": 1 },
+      { "question": "Code Splitting goal?", "options": ["Security", "Load speed/Smaller bundles", "Style"], "answer": 1 },
+      { "question": "Static Site Generation?", "options": ["SSG", "SSR", "CSR"], "answer": 0 },
+      { "question": "Hydration meaning?", "options": ["Water", "Attaching events to SSR HTML", "Cleaning"], "answer": 1 },
+      { "question": "Middleware in Redux?", "options": ["Loop", "Intercepting actions", "UI"], "answer": 1 }
+    ]
+  },
+  {
+    "course_id": "ud3", "quiz_number": 5, "course_title": "React Guide - Level 5",
+    "questions": [
+      { "question": "React 18 Concurrent mode?", "options": ["Single", "Multiple tasks at once", "Error"], "answer": 1 },
+      { "question": "Server Components use?", "options": ["Client", "Zero bundle size / Server run", "Math"], "answer": 1 },
+      { "question": "State machines library?", "options": ["XState", "Redux", "Zustand"], "answer": 0 },
+      { "question": "Unit test framework?", "options": ["Jest", "HTML", "Chrome"], "answer": 0 },
+      { "question": "What is a 'Thunk'?", "options": ["Action creator with logic", "Error", "Style"], "answer": 0 },
+      { "question": "GraphQL vs REST?", "options": ["Same", "Query specific data", "Speed"], "answer": 1 },
+      { "question": "React Native goal?", "options": ["Web only", "Cross-platform Mobile apps", "OS"], "answer": 1 },
+      { "question": "What is Shadow DOM?", "options": ["Virtual DOM", "Scoped CSS in Web Components", "Loop"], "answer": 1 },
+      { "question": "Design System tool?", "options": ["Storybook", "Excel", "Paint"], "answer": 0 },
+      { "question": "Performance Profiler?", "options": ["DevTools", "Network", "Console"], "answer": 0 }
+    ]
+  },
+  {
+    "course_id": "final-exam",
+    "quiz_number": 1,
+    "course_title": "Comprehensive Final Assessment",
+    "questions": [
+      { "question": "What is the primary function of the GIL in CPython?", "options": ["Memory Cleanup", "Thread execution lock", "Database security"], "answer": 1 },
+      { "question": "Which architecture is best for sequential data like text?", "options": ["CNN", "RNN/LSTM", "GAN"], "answer": 1 },
+      { "question": "What does a P-value represent in statistics?", "options": ["Model accuracy", "Probability of results by chance", "Data size"], "answer": 1 },
+      { "question": "In React, what is the purpose of 'useMemo'?", "options": ["To create a ref", "To memoize expensive calculations", "To fetch data"], "answer": 1 },
+      { "question": "Which ML algorithm uses the 'Kernel Trick'?", "options": ["Linear Regression", "SVM", "Decision Trees"], "answer": 1 },
+      { "question": "What does the 'self' keyword represent in Python classes?", "options": ["A global variable", "The instance of the object", "A static method"], "answer": 1 },
+      { "question": "What is 'Overfitting' in Machine Learning?", "options": ["Model is too simple", "Model memorizes training data", "Model trains too fast"], "answer": 1 },
+      { "question": "Which activation function helps prevent vanishing gradients?", "options": ["Sigmoid", "ReLU", "Step"], "answer": 1 },
+      { "question": "What is the primary use of a 'Boxplot'?", "options": ["Show trends over time", "Visualize quartiles and outliers", "Compare means of 3 groups"], "answer": 1 },
+      { "question": "In React, how do you pass data down the component tree without props?", "options": ["Redux only", "Context API", "State lifting"], "answer": 1 },
+      { "question": "What is the difference between 'append' and 'extend' in Python lists?", "options": ["Speed", "Object vs elements of iterable", "No difference"], "answer": 1 },
+      { "question": "What does PCA stand for?", "options": ["Primary Code Analysis", "Principal Component Analysis", "Private Cloud Access"], "answer": 1 },
+      { "question": "Which layer in a CNN reduces spatial dimensions?", "options": ["Flatten", "Pooling", "Dense"], "answer": 1 },
+      { "question": "What is a 'Type II Error'?", "options": ["False Positive", "False Negative", "Logic Error"], "answer": 1 },
+      { "question": "What is the function of 'useEffect' with an empty dependency array?", "options": ["Runs on every render", "Runs only once on mount", "Never runs"], "answer": 1 },
+      { "question": "Which keyword is used for exception handling in Python?", "options": ["catch", "try", "error"], "answer": 1 },
+      { "question": "What is 'Backpropagation' used for?", "options": ["Forward pass", "Updating weights in a Neural Net", "Data cleaning"], "answer": 1 },
+      { "question": "In statistics, what does 'Standard Deviation' measure?", "options": ["Centrality", "Spread/Dispersion", "The highest value"], "answer": 1 },
+      { "question": "What is a Python 'Decorator'?", "options": ["A UI tool", "A function that modifies another function", "A class type"], "answer": 1 },
+      { "question": "What is the goal of 'Gradient Descent'?", "options": ["Maximize accuracy", "Minimize the cost function", "Split the data"], "answer": 1 }
+    ]
+  }
+]
+  
+

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "ml-1",
+    "title": "Machine Learning by Andrew Ng",
+    "provider": "Coursera",
+    "url": "https://www.coursera.org/learn/machine-learning",
+    "duration_hours": 60,
+    "skills": ["machine learning", "supervised learning", "unsupervised learning", "regression", "classification", "statistics", "feature engineering"]
+  },
+  {
+    "id": "ds-1",
+    "title": "Applied Data Science with Python",
+    "provider": "Coursera",
+    "url": "https://www.coursera.org/specializations/data-science-python",
+    "duration_hours": 80,
+    "skills": ["data science", "python", "statistics", "data visualization", "machine learning", "pandas", "data analysis"]
+  },
+  {
+    "id": "dl-1",
+    "title": "Deep Learning Specialization",
+    "provider": "Coursera",
+    "url": "https://www.coursera.org/specializations/deep-learning",
+    "duration_hours": 70,
+    "skills": ["deep learning", "neural networks", "cnn", "rnn", "nlp", "tensorflow"]
+  },
+  {
+    "id": "js-1",
+    "title": "The Complete JavaScript Course",
+    "provider": "Udemy",
+    "url": "https://www.udemy.com/course/the-complete-javascript-course/",
+    "duration_hours": 48,
+    "skills": ["javascript", "web development", "dom", "es6", "frontend"]
+  },
+  {
+    "id": "react-1",
+    "title": "React - The Complete Guide",
+    "provider": "Udemy",
+    "url": "https://www.udemy.com/course/react-the-complete-guide/",
+    "duration_hours": 40,
+    "skills": ["react", "javascript", "redux", "frontend", "hooks"]
+  },
+  {
+    "id": "sql-1",
+    "title": "SQL for Data Science",
+    "provider": "Coursera",
+    "url": "https://www.coursera.org/learn/sql-for-data-science",
+    "duration_hours": 30,
+    "skills": ["sql", "database systems", "data retrieval", "query optimization"]
+  },
+  {
+    "id": "devops-1",
+    "title": "DevOps Engineer - CI/CD & Deployment",
+    "provider": "edX",
+    "url": "https://www.edx.org/course/devops-cicd-deployment",
+    "duration_hours": 40,
+    "skills": ["ci/cd", "devops", "deployment", "docker", "kubernetes"]
+  },
+  {
+    "id": "cloud-1",
+    "title": "Architecting with Google Cloud",
+    "provider": "Coursera",
+    "url": "https://www.coursera.org/specializations/gcp-architecture",
+    "duration_hours": 50,
+    "skills": ["cloud", "google cloud", "cloud computing", "gcp", "deployment"]
+  },
+  {
+    "id": "web-1",
+    "title": "HTML, CSS, and Javascript for Web Developers",
+    "provider": "Coursera",
+    "url": "https://www.coursera.org/learn/html-css-javascript-for-web-developers",
+    "duration_hours": 35,
+    "skills": ["html", "css", "javascript", "web development"]
+  },
+  {
+    "id": "stat-1",
+    "title": "Statistics with Python",
+    "provider": "Coursera",
+    "url": "https://www.coursera.org/specializations/statistics-with-python",
+    "duration_hours": 35,
+    "skills": ["statistics", "data analysis", "probability", "python"]
+  }
+]

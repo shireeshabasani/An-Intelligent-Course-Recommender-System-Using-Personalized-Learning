@@ -1,0 +1,121 @@
+[
+    {
+      "course_id": "roadmap",
+      "quiz_number": 1,
+      "course_title": "Web Foundations - Level 1",
+      "questions": [
+        { "question": "Which HTML tag is used for the largest heading?", "options": ["<h6>", "<head>", "<h1>", "<a>"], "answer": 2 },
+        { "question": "What does CSS stand for?", "options": ["Creative Style Sheets", "Cascading Style Sheets", "Computer Style Sheets", "Colorful Style Sheets"], "answer": 1 },
+        { "question": "Which character indicates an end tag?", "options": ["<", "*", "/", "^"], "answer": 2 },
+        { "question": "How do you add a background color in CSS?", "options": ["color:", "bg-color:", "background-color:", "bgcolor="], "answer": 2 },
+        { "question": "Which HTML element is used for the page title?", "options": ["<head>", "<title>", "<body>", "<header>"], "answer": 1 },
+        { "question": "How do you create a function in JavaScript?", "options": ["function:myFunc()", "function = myFunc()", "function myFunc()", "new function()"], "answer": 2 },
+        { "question": "Which attribute provides an image source?", "options": ["alt", "src", "href", "link"], "answer": 1 },
+        { "question": "How do you write 'Hello' in an alert box?", "options": ["msg('Hello')", "alert('Hello')", "msgBox('Hello')", "print('Hello')"], "answer": 1 },
+        { "question": "How do you select an element with ID 'demo'?", "options": [".demo", "demo", "#demo", ".id-demo"], "answer": 2 },
+        { "question": "Which tag is used for an unordered list?", "options": ["<ol>", "<ul>", "<li>", "<list>"], "answer": 1 }
+      ]
+    },
+    {
+      "course_id": "roadmap",
+      "quiz_number": 2,
+      "course_title": "JavaScript Logic - Level 2",
+      "questions": [
+        { "question": "What is the purpose of 'let'?", "options": ["Constant", "Block-scoped variable", "Global variable", "Function"], "answer": 1 },
+        { "question": "Which array method adds to the end?", "options": ["pop()", "shift()", "push()", "unshift()"], "answer": 2 },
+        { "question": "How do you write a 'for' loop?", "options": ["for (i=0; i<5; i++)", "for i to 5", "loop(5)", "for each i"], "answer": 0 },
+        { "question": "What does DOM stand for?", "options": ["Data Object Model", "Document Object Model", "Digital Object Method", "None"], "answer": 1 },
+        { "question": "Which operator checks value and type?", "options": ["=", "==", "===", "!="], "answer": 2 },
+        { "question": "Which keyword handles errors?", "options": ["catch", "try", "throw", "finally"], "answer": 1 },
+        { "question": "What is 'NaN'?", "options": ["New and Next", "Not a Number", "Null and None", "Not a Node"], "answer": 1 },
+        { "question": "Symbol for template literals?", "options": ["'", "\"", "`", "/"], "answer": 2 },
+        { "question": "Convert string to integer?", "options": ["toInt()", "Integer()", "parseInt()", "Number()"], "answer": 2 },
+        { "question": "Method to remove last element?", "options": ["pop()", "push()", "shift()", "delete"], "answer": 0 }
+      ]
+    },
+    {
+      "course_id": "roadmap",
+      "quiz_number": 3,
+      "course_title": "React.js Essentials - Level 3",
+      "questions": [
+        { "question": "What is 'State' in React?", "options": ["Permanent storage", "Internal data store", "CSS style", "A route"], "answer": 1 },
+        { "question": "Hook for side effects?", "options": ["useState", "useEffect", "useContext", "useRef"], "answer": 1 },
+        { "question": "What is JSX?", "options": ["JS extension for XML/HTML", "CSS library", "Database type", "Language"], "answer": 0 },
+        { "question": "How many elements can a component return?", "options": ["Only one", "As many as needed", "None", "Five"], "answer": 0 },
+        { "question": "What are Props?", "options": ["Internal state", "Inputs to components", "Functions", "Styles"], "answer": 1 },
+        { "question": "Command to create React app?", "options": ["npx create-react-app", "npm init react", "react-new", "create-app"], "answer": 0 },
+        { "question": "What is the Virtual DOM?", "options": ["Browser tool", "Lightweight copy of real DOM", "Server", "Database"], "answer": 1 },
+        { "question": "How do you handle clicks in React?", "options": ["onclick", "onClick", "on-click", "click()"], "answer": 1 },
+        { "question": "Hook for complex state logic?", "options": ["useState", "useMemo", "useReducer", "useCallback"], "answer": 2 },
+        { "question": "What is a React Fragment?", "options": ["Broken component", "Group children without extra nodes", "Styling tool", "API"], "answer": 1 }
+      ]
+    },
+    {
+      "course_id": "roadmap",
+      "quiz_number": 4,
+      "course_title": "Node & Express - Level 4",
+      "questions": [
+        { "question": "What is Node.js?", "options": ["A browser", "A JS runtime environment", "A database", "A language"], "answer": 1 },
+        { "question": "Module for file operations?", "options": ["os", "fs", "path", "http"], "answer": 1 },
+        { "question": "What is Express.js?", "options": ["A database", "A web framework for Node", "A testing tool", "A compiler"], "answer": 1 },
+        { "question": "What does NPM stand for?", "options": ["Node Package Manager", "New Project Method", "Node Path Module", "None"], "answer": 0 },
+        { "question": "Function to start Express server?", "options": ["start()", "listen()", "run()", "init()"], "answer": 1 },
+        { "question": "What is Middleware?", "options": ["A database", "Functions during req-res cycle", "A CSS file", "UI kit"], "answer": 1 },
+        { "question": "How to import a module in Node?", "options": ["import", "require", "using", "include"], "answer": 1 },
+        { "question": "HTTP method to create data?", "options": ["GET", "PUT", "POST", "DELETE"], "answer": 2 },
+        { "question": "What is 'package.json'?", "options": ["Style file", "Metadata and dependencies", "Database file", "Log"], "answer": 1 },
+        { "question": "Status code for 'Created'?", "options": ["200", "201", "404", "500"], "answer": 1 }
+      ]
+    },
+    {
+      "course_id": "roadmap",
+      "quiz_number": 5,
+      "course_title": "Database (MongoDB) - Level 5",
+      "questions": [
+        { "question": "What is MongoDB?", "options": ["Relational DB", "NoSQL Document DB", "CSS library", "Compiler"], "answer": 1 },
+        { "question": "What is a Collection?", "options": ["Set of tables", "Set of documents", "Variables", "Routes"], "answer": 1 },
+        { "question": "Keyword to find data in Mongoose?", "options": ["get()", "search()", "find()", "select()"], "answer": 2 },
+        { "question": "What is an ODM?", "options": ["Object Document Mapper", "Official Data Manager", "On Demand Module", "None"], "answer": 0 },
+        { "question": "MongoDB data storage format?", "options": ["SQL", "BSON", "XML", "CSV"], "answer": 1 },
+        { "question": "Connect Mongoose to Mongo?", "options": ["connect()", "link()", "join()", "open()"], "answer": 0 },
+        { "question": "What is a Schema?", "options": ["Data entry", "Structure for documents", "Server", "Index"], "answer": 1 },
+        { "question": "Operator to update data?", "options": ["$set", "$update", "$add", "$push"], "answer": 0 },
+        { "question": "Primary key in MongoDB?", "options": ["pk", "id", "_id", "uid"], "answer": 2 },
+        { "question": "Method to delete one document?", "options": ["remove()", "deleteOne()", "clear()", "drop()"], "answer": 1 }
+      ]
+    },
+    {
+      "course_id": "roadmap",
+      "quiz_number": 6,
+      "course_title": "FastAPI & Python - Level 6",
+      "questions": [
+        { "question": "What is FastAPI?", "options": ["CSS framework", "Python API framework", "Database", "Browser"], "answer": 1 },
+        { "question": "Library for async in FastAPI?", "options": ["requests", "uvicorn", "flask", "django"], "answer": 1 },
+        { "question": "Pydantic's role?", "options": ["Styling", "Data validation", "Routing", "Auth"], "answer": 1 },
+        { "question": "Decorator for GET route?", "options": ["@app.get()", "@app.post()", "@app.route()", "@route()"], "answer": 0 },
+        { "question": "FastAPI uses which Python hints?", "options": ["Python 2", "Python 3.6+", "Java", "C++"], "answer": 1 },
+        { "question": "Tool for auto API docs?", "options": ["Swagger UI", "Chrome", "Excel", "Terminal"], "answer": 0 },
+        { "question": "What is a Path Parameter?", "options": ["Query string", "Variable in URL path", "Database column", "Header"], "answer": 1 },
+        { "question": "How to run FastAPI app?", "options": ["python run", "uvicorn main:app --reload", "fastapi start", "npm run"], "answer": 1 },
+        { "question": "Dependency Injection use?", "options": ["Database error", "Sharing logic like DB sessions", "Styling", "None"], "answer": 1 },
+        { "question": "Code for 'Bad Request'?", "options": ["200", "400", "404", "500"], "answer": 1 }
+      ]
+    },
+    {
+      "course_id": "roadmap",
+      "quiz_number": 7,
+      "course_title": "DevOps & Mastery - Level 7",
+      "questions": [
+        { "question": "What is Docker?", "options": ["Language", "Containerization platform", "Database", "OS"], "answer": 1 },
+        { "question": "What is Git?", "options": ["Styling tool", "Version control system", "Cloud provider", "IDE"], "answer": 1 },
+        { "question": "What is Deployment?", "options": ["Writing code", "Making app available to users", "Deleting code", "Testing"], "answer": 1 },
+        { "question": "CI/CD stands for?", "options": ["Continuous Integration/Continuous Deployment", "Code Interest", "Cloud Data", "None"], "answer": 0 },
+        { "question": "Purpose of GitHub?", "options": ["Code hosting & collaboration", "Compiling", "Searching", "Hosting DB"], "answer": 0 },
+        { "question": "Command to save Git changes locally?", "options": ["git push", "git commit", "git save", "git add"], "answer": 1 },
+        { "question": "AWS S3 use?", "options": ["Running code", "Storing files/data", "Styling", "Networking"], "answer": 1 },
+        { "question": "What is Kubernetes?", "options": ["Container orchestrator", "Database", "Language", "UI Kit"], "answer": 0 },
+        { "question": "File to define Docker containers?", "options": ["DockerFile", "config.json", "package.json", "docker.yaml"], "answer": 0 },
+        { "question": "Roadmap Master threshold?", "options": ["80%", "60%", "100%", "70%"], "answer": 1 }
+      ]
+    }
+  ]
